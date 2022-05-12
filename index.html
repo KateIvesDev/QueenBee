@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queen Bee</title>
+    <link href="/assets/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+    <h1>Queen Bee</h1>
+    <div class="col">
+        <div class="hex">
+            <div class="letter" data-cell></div>
+        </div>
+        
+        <div class="hex">
+            <div class="letter" data-cell></div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="hex">
+            <div class="letter" data-cell></div>
+        </div>
+        <div class="center-hex">
+            <div class="letter" data-cell-center></div>
+        </div>
+        <div class="hex">
+            <div class="letter" data-cell></div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="hex">
+            <div class="letter" data-cell></div>
+        </div>
+        <div class="hex">
+            <div class="letter" data-cell></div>
+        </div>
+    </div>
+
+    <div class="controls">
+        <div>
+            <h3 id="letter-input"></h3>
+        </div>
+       
+        <button id="delete-button"><i class="fa-solid fa-delete-left"></i></button>
+        <button id="shuffle-button"><i class="fa-solid fa-shuffle"></i>
+        <button>Enter</button></button>
+        <button>New Game</button>
+         
+    </div>
+
+    <div class="word-list">
+        <h2>Word List</h2>
+    </div>
+   
+
+    <script src="main.js"></script>
+</body>
+</html>
